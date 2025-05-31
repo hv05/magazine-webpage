@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border: 1px solid ;
+    border-radius: 9px;
+    box-shadow: 0px 0px 20px;
+    width: 60%;
+    height: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+.part1{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+   
+    overflow: hidden;
+   
+}
+#p1{
+   border: 1px solid;
+   padding: 0rem 4rem;
+   
+   font-size: 2.7rem;
+   height: 50px;
+   width: 450px;
+   font-weight: bold;
+  
+  
+}
+#p2{
+    border: 1px solid;
+    padding: 1rem;
+    font-size: 0.5rem;
+    height: 50px;
+    width: 252px;
+    color: #747373;
+}
+#p3{
+    border: 1px solid; 
+   height: 50px; 
+   color: aliceblue;
+   background-color: black;
+   padding: 1rem;
+   font-size: 0.7rem;
+   filter: blur(0.8px);
+   overflow: none;
+}
+.next{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 2rem;
+    margin-bottom: 0.2rem;
+}
+.lorem{
+    color: #383636;
+    font-size: 0.6rem;
+}
+.text{
+    font-weight: bold;
+    font-size: 1.9rem;
+    padding-right: 1.2rem;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    font-size: 7.5rem;
+    
+}
+.img{
+    height: 350px;
+    width: 100%;
+    box-shadow: 0px 0px 7px black;
+    
+}
+.part4{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 1.8rem;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+.part5{
+    display: flex;
+    padding: 0 2rem;
+    gap: 2.5rem;
+    margin-top: 0.7rem;
+    color: #383636;
+}
+.part6{
+    display: flex;
+    gap: 2.4rem;
+    padding: 0 2rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;  
+}
+.techimg{
+    height: 90px;
+    width: 230px;
+    border-radius: 5px;
+    transition: transform all 0.3s l 0s;
+    filter: blur(1.3px);
+}
+.techimg:hover{
+    transform: scale(1.05);
+}
+.btn{
+    margin-top: 0.7rem;
+    margin-right: 2rem;
+    border-radius: 22px ;
+    padding: 1rem 1.3rem;
+    font-size: 1.1rem;
+    filter: blur(1.2px);
+    font-weight: bold;
+    color: white;
+    background-color: rgb(243, 15, 15);
+    transition: transform all 0.3s linear 0s;
+}
+.btn:hover{
+    transform: scale(1.05);
+}
