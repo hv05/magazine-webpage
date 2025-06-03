@@ -23,6 +23,6 @@ This is a modern and responsive magazine-style webpage that highlights the top t
 
 1. Clone the repository:
    ```bash
-   git clone https:
+   git clone https: https://github.com/hv05/magazine-webpage.git
 
 
