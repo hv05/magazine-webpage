@@ -20,6 +20,6 @@ This is a modern and responsive magazine-style webpage that highlights the top t
 
 
 ## 🚀 How to Use
-    https://hv05.github.io/magazine-webpage/
+   project https://hv05.github.io/magazine-webpage/
 
 
